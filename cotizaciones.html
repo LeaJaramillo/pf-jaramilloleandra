@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PreEntrega3Jaramillo-Leandra</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/favicon.jpg">
+  </head>
+  <body>
+    <!-- Aquí comienza el menú -->
+    <nav class="navbar sticky-top navbar-expand-xxl navbar-dark bg-black">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"> <img src="img/logo.jpg" alt="Logo 3DECO"></a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-xxl-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="proceso.html">Proceso</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="luxury.html">Diseños Luxury</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cotizaciones.html">Cotizaciones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="clientes.html">Clientes</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  <!-- Aquí termina el menú -->
+    <main class="pt-5 bg-black">
+      <div class="container">
+        <section class="row">
+          <article class="col-12 text-center">
+          <h1 class="text-white">¿Interesado?</h1>
+          <p class="fs-5 text-white text-center">Solicita una cotización</p>
+          <p class="fs-5 text-white text-center">Para más informacion puedes contactarnos en <a href="mailto:3decosac@gmail.com">3decosac@gmail.com</a></p>
+         </article>
+         <article class="col-12 col-lg-6 order-lg-1">
+          <form action="https://formsubmit.co/3decosac@gmail.com" method="POST">
+            <div class="mb-3">
+              <input
+                class="form-control"
+                id="name"
+                name="name"
+                placeholder="Tu nombre"
+                type="text"
+                required/>
+            </div>
+            <div class="mb-3">
+              <input
+                class="form-control"
+                id="email"
+                name="email"
+                placeholder="Tu correo"
+                type="email"
+                required/>
+            </div>
+            <div class="mb-3">
+              <textarea
+                rows="5"
+                class="form-control"
+                id="comments"
+                name="comments"
+                placeholder="Déjanos tus comentatos"
+                required></textarea>
+            </div>
+            <div class="mb-3">
+              <input class="btn btn-lg btn-success" type="submit" />
+              <input
+                type="hidden"
+                name="_next"
+                value="https://yourdomain.com/gracias.html"/>
+              <input
+                type="hidden"
+                name="_subject"
+                value="Cotización de servicio"/>
+            </div>
+          </form>
+        </article>
+         <article class="col-12 col-lg-6">
+          <div class="ratio ratio-16x9">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.3220353752454!2d-77.04410798464849!3d-12.090092246001038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c859756ceaef%3A0xa74f1d9310169d5b!2sAv.%20Gral.%20Trinidad%20Mor%C3%A1n%201051%2C%20Lince%2015073!5e0!3m2!1ses-419!2spe!4v1673642294978!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </article>
+        </section>
+      </div>
+      <br><br><br><br><br>
+      <!-- Aquí comienza el icono flotante de whatsapp -->
+      <div>
+        <a class="btn-wsp"target="_blank"
+          href="https://api.whatsapp.com/send?phone=0051960315119">
+          <img class="pulse" src="img/whatsapp.png" alt="icono whatsapp" />
+        </a>
+      </div>
+      <embed src="docs/PRESENTACION 3DECO- COCINAS.pdf" type="application/pdf" width="100%" height="570px"/>
+    </main>
+    <!-- Aquí comienza el footer -->
+    <footer class="bg-black p-3">
+      <nav  class="d-flex justify-content-evenly ">
+        <a href="https://facebook.com" target="_blank"><i class="bi bi-facebook fs-4"></i></a>
+        <a href="https://instagram.com" target="_blank"><i class="bi bi-instagram fs-4"></i></a>
+        <a href="https://m.me/3deco" target="_blank"><i class="bi bi-messenger fs-4"></i></a>
+      </nav>
+      <div class="gradient-text text-center"><strong>Desing & Kitchen</strong></div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script> 
+  </body>
+</html>
